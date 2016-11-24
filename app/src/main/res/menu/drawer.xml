@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/coupons_offers"
+            android:checked="false"
+            android:title="123"/>
+
+        <item
+            android:id="@+id/brands"
+            android:checked="false"
+            android:title="321" />
+
+        <item
+            android:id="@+id/loyalty_program"
+            android:checked="false"
+            android:title="123123"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/tickets"
+            android:checked="false"
+            android:title="123321"
+            android:visible="false"/>
+    </group>
+
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:title="678"/>
+    </group>
+
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/faq"
+            android:checked="false"
+            android:title="123"/>
+
+        <item
+            android:id="@+id/view_tutorial"
+            android:checked="false"
+            android:title="321"/>
+
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:title="555"/>
+
+    </group>
+</menu>
