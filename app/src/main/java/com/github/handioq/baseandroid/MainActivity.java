@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.github.handioq.baseandroid.logic.DataManager;
-import com.github.handioq.baseandroid.model.dto.FaqResponse;
 import com.github.handioq.baseandroid.logic.network.listener.CommonCallback;
+import com.github.handioq.baseandroid.model.dto.FaqResponse;
 import com.github.handioq.baseandroid.ui.base.activity.ToolBarActivity;
 import com.github.handioq.baseandroid.ui.catalog.CatalogActivity;
 
@@ -55,6 +55,4 @@ public class MainActivity extends ToolBarActivity implements CommonCallback.Resu
         hideProgress();
         Log.e(TAG, error);
     }
-
-
 }
